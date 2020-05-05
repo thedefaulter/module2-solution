@@ -1,0 +1,233 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bolder;
+}
+h1{
+	text-align: center;
+}
+.chicken{
+	border: 5px solid black;
+	padding-left: 10px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+.beef{
+	border: 5px solid black;
+	padding-left: 5px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+.sushi{
+	border: 5px solid black;
+	padding-left: 5px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+div{
+	margin: 2px;
+	background-color: grey;
+}
+
+.chicken h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 286px;
+	width: 200px;
+	box-sizing: border-box;
+	background: lightpink;
+}
+.beef h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 291px;
+	width: 200px;
+	color: white;
+	box-sizing: border-box;
+	background: rgb(193,69,67);
+}
+.sushi h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 291px;
+	width: 200px;
+	box-sizing: border-box;
+	background: rgb(229,208,151);
+}
+
+/********MEDIA QUERY FOR DESKTOP********/
+@media (max-width: 769px){
+	.chicken{
+	border: 5px solid black;
+	padding-left: 10px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+.beef{
+	border: 5px solid black;
+	padding-left: 5px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+.sushi{
+	border: 5px solid black;
+	padding-left: 5px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+div{
+	margin: 2px;
+	background-color: grey;
+}
+
+.chicken h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 286px;
+	width: 200px;
+	box-sizing: border-box;
+	background: lightpink;
+}
+.beef h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 291px;
+	width: 200px;
+	color: white;
+	box-sizing: border-box;
+	background: rgb(193,69,67);
+}
+.sushi h2{
+	border: 3px solid black;
+	text-align: center;
+	position: relative;
+	top: -24px;
+	left: 291px;
+	width: 200px;
+	box-sizing: border-box;
+	background: rgb(229,208,151);
+}
+}
+
+/********MEDIA QUERY FOR TABLETS********/
+
+@media (min-width: 768px) and (max-width: 994px){
+	div{
+		margin-left: 15px;
+	}
+	.chicken{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 47%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+
+	.beef{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 47%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+
+	.sushi{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 96.2%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+	.chicken h2{
+		border: 3px solid black;
+	    text-align: center;
+	    position: relative;
+	    top: -24px;
+	    left: 185px;
+	    width: 152px;
+	    background: lightpink;
+	}
+	.beef h2{
+		border: 3px solid black;
+	    text-align: center;
+	    position: relative;
+	    top: -24px;
+	    left: 185px;
+	    width: 152px;
+	    background: maroon;
+	}
+	.sushi h2{
+		width: 152px;
+		position: relative;
+		left: 557px;
+	}
+}
+
+/********MEDIA QUERY FOR MOBILE********/
+
+@media (min-width: 360px) and (max-width: 767px){
+	div{
+		margin-left: 25px;
+	}
+	.chicken{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 95%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+
+	.beef{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 95%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+
+	.sushi{
+		border: 5px solid black;
+	    padding-left: 10px;
+	    width: 95%;
+	    float: left;
+	    box-sizing: border-box;
+	}
+	.chicken h2{
+		border: 3px solid black;
+	    text-align: center;
+	    position: relative;
+	    top: -24px;
+	    left: 527px;
+	    width: 152px;
+	    background: lightpink;
+	}
+	.beef h2{
+		border: 3px solid black;
+	    text-align: center;
+	    position: relative;
+	    top: -24px;
+	    left: 527px;
+	    width: 152px;
+	    background: maroon;
+	}
+	.sushi h2{
+		width: 152px;
+		position: relative;
+		left: 527px;
+	}
+}
